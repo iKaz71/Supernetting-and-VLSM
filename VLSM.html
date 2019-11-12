@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Redes :v</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap css -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/modal-video/css/modal-video.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+<title>VLSM</title>
+<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <header id="header" class="header header-hide">
+        <div class="container">
+    
+          <div id="logo" class="pull-left">
+            <h1><a href="#body" class="scrollto"><span>D</span>ireccionamiento <span>L</span>ógico</a></h1>
+    
+          </div>
+    
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li class="menu-active"><a href="./index.html">Inicio</a></li>
+              <li><a href="./Superneteo.html">Método por SuperNeteo</a></li>
+              <li><a href="#features">Método por VLSM</a></li>
+              
+              
+            </ul>
+          </nav><!-- #nav-menu-container -->
+        </div>
+    </header><!-- #header --> 
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero" class="wow fadeIn">
+     
+
+<div id="header-holder" class="inner-header domainspage-header"> <!-- Section of ip and mask -->
+
+<div class="#" >
+
+
+    <div class="jumbotron text-center">
+        <h1>Direccionamiento por VLSM</h1>
+        <p> Variable-Length Subnet Masking</p>
+        <div class="row">
+            <div class="col-md-12 text-center">
+            <div class="domain-search-holder">
+            <div class="input-holder">
+            <input id="input_network" type="text" value="192.168.1.1/24" placeholder="Major Network"style = "text-align: center;" />
+            </div>
+            </div>
+            </div>
+            </div>
+      
+      </div>
+
+
+
+</div>
+</div>
+
+<!-- Section of ip and mask -->
+
+<div  style = "text-align: center;">   
+<div class="spacer2" >
+</div>
+
+
+
+<div id="message1" class="container-fluid">
+<div class="container"  >
+
+
+    <div class="row align-items-start">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col">Nombre de la Red</div>
+        <div class="col">Host Necesarios</div>
+        <div class="col"> </div>
+        <div class="col"></div>
+      </div>
+
+
+<div class="col-sm-12">
+<p id='subnet_pargraph'>
+<input type='text' id='name1' value='Subnet 1'>
+<input type='text' id='hosts1' placeholder=' ' tabindex='1'><br>
+<input type='text' id='name2' value='Subnet 2'>
+<input type='text' id='hosts2' placeholder=' ' tabindex='2'><br>
+<input type='text' id='name3' value='Subnet 3'>
+<input type='text' id='hosts3' placeholder=' ' tabindex='3'><br>
+<input type='text' id='name4' value='Subnet 4'>
+<input type='text' id='hosts4' placeholder=' ' tabindex='4'><br>
+</div>
+</div>
+</div>
+</div>
+<div id="message1" class="container-fluid" style = "text-align: center;">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p class="p-center">Numero de subredes</p>
+</div>
+<div class="col-md-12">
+<input type="text" style = "text-align: center;" id='input_num_of_subnets' value='4' min='2' max='999' maxlength="3">
+</div>
+<div class="col-md-12">
+  <br>
+<button class="btn-primary" onClick="if (!window.__cfRLUnblockHandlers) return false; change_subnet_number();" data-cf-modified-7aace9eb075ef9e9f3b8e469-="">Cambiar # de subredes</button><span id='nets' style="display:none;">4</span>
+<button class="btn-success" onClick="if (!window.__cfRLUnblockHandlers) return false; vlsm();" data-cf-modified-7aace9eb075ef9e9f3b8e469-="">Resolver</button>
+</div>
+</div>
+</div>
+</div>
+<div id="message1" class="container-fluid">
+<div class="container">
+<div class="row">
+<p id='not_valid_ip'>
+<p id='ans'>
+</div>
+</div>
+</div>
+</div>
+</section><!-- #hero -->
+</div>
+
+
+<script src="./js/vlsm.js" type="7aace9eb075ef9e9f3b8e469-text/javascript"></script>
+
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="7aace9eb075ef9e9f3b8e469-|49" defer=""></script></body>
+</html>
